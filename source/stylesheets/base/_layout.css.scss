@@ -14,5 +14,12 @@ nav, section, {
   width: 100%;
 }
 
+// Ungrid responsive CSS grid system
+@media (min-width: 30em) {
+  .row { width: 100%; display: table; table-layout: fixed;  }
+  .col { display: table-cell;  }
+
+}
+
 @media (max-width: $screen-sm-max) {
 }
