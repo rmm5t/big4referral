@@ -1,0 +1,29 @@
+.navigation-container {
+  background-color: red;
+  padding: 2em 0;
+}
+
+.logo {
+  position: relative;
+  height: 69px;
+  display: block;
+  float: left;
+}
+
+.nav-links {
+  float: right;
+
+  .item {
+    float: left;
+    line-height: 48px;
+    padding: 0 16px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .item:last-child {
+    padding-right: 0;
+  }
+  .item:hover {
+    color: $color-hover;
+  }
+}
