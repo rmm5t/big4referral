@@ -1,0 +1,11 @@
+<section class="header">
+  <% current_page.data.text_content.each do |c| %>
+    <h1><%= c.content_title %></h1>
+    <div class="row">
+      <div class="col col-desc">
+        <p class="desc"><%= c.content_desc %></p>
+      </div>
+      <div class="col"></div>
+    </div>
+  <% end -%>
+</section>

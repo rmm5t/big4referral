@@ -1,5 +1,4 @@
 .navigation-container {
-  background-color: red;
   padding: 2em 0;
 }
 
@@ -14,6 +13,8 @@
   float: right;
 
   .item {
+    color: $color-primary;
+    text-decoration: none;
     float: left;
     line-height: 48px;
     padding: 0 16px;
