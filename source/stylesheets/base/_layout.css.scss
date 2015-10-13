@@ -1,0 +1,45 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0 1em;
+  max-width: $container-width;
+}
+
+nav, section, {
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+  width: 100%;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+
+}
+.clearfix { display: inline-block;  }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%;  }
+.clearfix { display: block;  }
+/* close commented backslash hack */
+
+// Ungrid responsive CSS grid system
+@media (min-width: $screen-xs-max) {
+  .row { width: 100%; display: table; table-layout: fixed;  }
+  .col { display: table-cell;  }
+}
+
+.gutter { width: 3%; }
+
+
+@media (max-width: $screen-xs-max) {
+  .header {
+    .row { .col-desc { width: 100%; } }
+  }
+  .hidden-xs { display: none; }
+}
