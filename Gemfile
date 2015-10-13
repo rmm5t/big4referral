@@ -4,6 +4,8 @@ source 'https://rubygems.org'
 
 gem "middleman", "~>3.4.0"
 
+gem "middleman-gh-pages", "~> 0.0.3"
+
 # Live-reloading plugin
 gem "middleman-livereload", "~> 3.1.0"
 
