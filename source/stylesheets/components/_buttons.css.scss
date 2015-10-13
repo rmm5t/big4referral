@@ -16,3 +16,6 @@
 }
 
 .button:hover { background-color: $color-hover; }
+@media (max-width: $screen-xs-max) {
+  .button { margin-bottom: 1em; }
+}

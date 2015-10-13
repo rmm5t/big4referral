@@ -8,3 +8,11 @@
   .card-title { line-height: 6.0; }
   .info-content { line-height: 2.2; }
 }
+
+@media (max-width: $screen-xs-max) {
+  .info-cards {
+    margin-bottom: 2em;
+    .card-title { line-height: 3.6; }
+    .card-img { height: 50px; }
+  }
+}

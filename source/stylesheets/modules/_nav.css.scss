@@ -28,3 +28,10 @@
     color: $color-hover;
   }
 }
+
+
+@media (max-width: $screen-xs-max) {
+  .logo {
+    height: 50px;
+  }
+}
